@@ -13,6 +13,7 @@ jobs:
       - run: git config --global user.name '${{ secrets.GH_PUBLIC_NAME }}'
       - run: git config --global user.email '${{ secrets.GH_EMAIL }}'
       - run: npm version patch -m "[RELEASE] %s"
+      - run: git commit
       - run: git push
       - run: git push --tags
   publish:
