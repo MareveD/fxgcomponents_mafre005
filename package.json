@@ -1,0 +1,26 @@
+{
+  "name": "fxgcomponents_mafre005",
+  "version": "1.0.1",
+  "description": "Bibliothèque de components React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MareveD/fxgcomponents_mafre005.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "components",
+    "demo",
+    "fxgarneau"
+  ],
+  "author": "Marie-Eve Frechette",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MareveD/fxgcomponents_mafre005/issues"
+  },
+  "homepage": "https://github.com/MareveD/fxgcomponents_mafre005#readme"
+}
