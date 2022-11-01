@@ -1,7 +1,9 @@
 name: Livraison NPM et Storybook
+
 on:
   push:
     branches: [ master ]
+
 jobs:  
   version:
     runs-on: ubuntu-latest
@@ -16,6 +18,7 @@ jobs:
       - run: git commit
       - run: git push
       - run: git push --tags
+
   publish:
     runs-on: ubuntu-latest
     steps:      
