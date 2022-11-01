@@ -1,8 +1,7 @@
 name: Livraison NPM et Storybook
 on:
   push:
-    branches:
-      - master
+    branches: [ master ]
 jobs:  
   version:
     runs-on: ubuntu-latest
