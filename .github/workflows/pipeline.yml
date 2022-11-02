@@ -2,13 +2,13 @@ name: Livraison NPM et Storybook
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
 
-jobs:  
+jobs:
   version:
     runs-on: ubuntu-latest
     if: "!startsWith(github.event.head_commit.message, '[RELEASE]')"
-    steps:      
+    steps:
       - uses: actions/checkout@v2
         with:
           token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
@@ -20,10 +20,10 @@ jobs:
 
   publish:
     runs-on: ubuntu-latest
-    steps:      
+    steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
-        with: 
+        with:
           node-version: 12
       - run: npm install
       - uses: JS-DevTools/npm-publish@v1
