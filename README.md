@@ -16,27 +16,29 @@ Bibliothèque de 10 composantes React réutilisables basées sur Bootstrap, Ant 
 - [Select](#select)
 - [Width](#width)
 
+--------------------------------
 
 ## Version courante & versions antérieures
 
 **Version courante :**
-- Version 1.0.3 : Ajout du readme.md relatif aux composantes. *(11 / 1 / 2022)*
+- Version 1.0.4 : Ajustements aux readme.md.
 
 **Versions antérieures :**
-- Version 1.0.2 /// Ajout du .gitignore
-- Version 1.0.1 /// Test d'incrementation de la version
+- Version 1.0.3 : Ajout du readme.md relatif aux composantes.
+- Version 1.0.2 : Ajout du .gitignore
+- Version 1.0.1 : Test d'incrementation de la version
 
 --------------------------------
 
 ## Installation
 
-Si vous n'êtes pas déjà dans le dossier source, accédez-y en entrant dans le terminal:
+Vous pouvez installer le package via npm :
 
 ```
-cd mafre005
+npm i fxgcomponents_mafre005
 ```
 
-Ensuite, entrez la commande suivante dans le terminal afin d'installer les packages npm nécessaires :
+Entrez la commande suivante dans le terminal afin d'installer les packages npm nécessaires :
 
 ```
 npm install
@@ -47,7 +49,7 @@ npm install
 ## Composantes
 ### ButtonColor
 **Description sommaire :**
-- À l’aide de la bibliothèque react-bootstrap, nous pouvons changer la couleur d’un bouton. 
+- À l’aide de la bibliothèque **react-bootstrap**, nous pouvons changer la couleur d’un bouton. 
 
 **Propriété(s) déterminée(s) :**
 - variantType : string /// ajuste la propriété 'variant' prédéterminée de Bootstrap.
