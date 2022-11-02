@@ -18,17 +18,9 @@ Bibliothèque de 10 composantes React réutilisables basées sur Bootstrap, Ant 
 
 --------------------------------
 
-## Version courante & versions antérieures
+## Version courante :
 
-**Version courante :**
-- Version 1.0.6 : Ajustements finaux au readme.md.
-
-***Versions antérieures :***
-- *Version 1.0.5 : Ajouts d'images au readme.md.*
-- *Version 1.0.4 : Ajustements aux readme.md.*
-- *Version 1.0.3 : Ajout du readme.md relatif aux composantes.*
-- *Version 1.0.2 : Ajout du .gitignore*
-- *Version 1.0.1 : Test d'incrementation de la version*
+- Version 1.0.8 : Ajustements finaux au readme.md.
 
 --------------------------------
 
