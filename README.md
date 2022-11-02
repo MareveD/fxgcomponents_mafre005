@@ -75,7 +75,7 @@ PrimaryButton.args = {
 
 ### ButtonSize
 **Description sommaire :**
-- À l’aide de la bibliothèque react-bootstrap, nous pouvons changer la grandeur d’un bouton. 
+- À l’aide de la bibliothèque **react-bootstrap**, nous pouvons changer la grandeur d’un bouton. 
 - Il est possible d'appliquer également la propriété variantType ci-haut expliquée.
 
 **Propriété(s) déterminée(s) :**
@@ -102,7 +102,7 @@ SmallButton.args = {
 
 ### ButtonType
 **Description sommaire :**
-- À l’aide de la bibliothèque react-bootstrap, nous pouvons changer le type et la valeur d'un bouton. 
+- À l’aide de la bibliothèque **react-bootstrap**, nous pouvons changer le type et la valeur d'un bouton. 
 
 **Propriété(s) déterminée(s) :**
 - typeType : string /// ajuste la propriété 'type' prédéterminée de Bootstrap.
@@ -128,7 +128,7 @@ ResetButton.args = {
 
 ### Card
 **Description sommaire :**
-Carte Ant Design présentée en taille par défaut, en taille petite et en taille par défaut sans l'entête.
+Carte **Ant Design** présentée en taille par défaut, en taille petite et en taille par défaut sans l'entête.
 Si les propriétés *title* et *extra* sont absentes, la carte n'aura pas d'entête.
 
 **Propriété(s) déterminée(s) :**
@@ -190,7 +190,7 @@ Medium.args = {
 
 ### DropDownMenu
 **Description sommaire :**
-Menu de liens Ant Design déroulable (dropdown). Présenté avec des liens fonctionnels, des liens non fonctionnels et des liens en rouge pour avertir d'un danger.
+Menu de liens **Ant Design** déroulable (dropdown). Présenté avec des liens fonctionnels, des liens non fonctionnels et des liens en rouge pour avertir d'un danger.
 
 **Propriété(s) déterminée(s) :**
 - text : string /// détermine le titre du menu.
@@ -218,7 +218,7 @@ LinksEnabled.args = {
 
 ### Height
 **Description sommaire :**
-- Gestion de la hauteur d'images, grâce à Ant Design. Trois tailles sont préprogrammées (La largeur est proportionnelle).
+- Gestion de la hauteur d'images, grâce à **Ant Design**. Trois tailles sont préprogrammées (La largeur est proportionnelle).
 
 **Propriété(s) déterminée(s) :**
 - height : number /// ajuste la hauteur de l'image.
@@ -244,7 +244,7 @@ MediumH.args = {
 
 ### Rating
 **Description sommaire :**
-Stack MUI d'icônes d'étoiles dynamiques pour évaluer un produit. Présenté en 3 tailles différentes (petite, par défaut et grande)
+Stack **MUI** d'icônes d'étoiles dynamiques pour évaluer un produit. Présenté en 3 tailles différentes (petite, par défaut et grande)
 
 **Propriété(s) déterminée(s) :**
 - name : string /// détermine le nom du rating
@@ -269,7 +269,7 @@ Small.args = {
 
 ### Select
 **Description sommaire :**
-Champ de type select par MUI. Le premier est désactivé, le second est en rouge et signale une erreur et le troisième est un champ requis.
+Champ de type select par **MUI**. Le premier est désactivé, le second est en rouge et signale une erreur et le troisième est un champ requis.
 
 **Propriété(s) déterminée(s) :**
 - disabled : boolean /// détermine si le champ est activé
@@ -300,7 +300,7 @@ Error.args = {
 
 ### Width
 **Description sommaire :**
-- Gestion de la largeur d'images, grâce à Ant Design. Trois tailles sont préprogrammées (La hauteur est proportionnelle).
+- Gestion de la largeur d'images, grâce à **Ant Design**. Trois tailles sont préprogrammées (La hauteur est proportionnelle).
 
 **Propriété(s) déterminée(s) :**
 - width : number /// ajuste la largeur de l'image.
