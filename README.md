@@ -67,7 +67,7 @@ PrimaryButton.args = {
 - variant : 'success' /// résultat : vert
 - variant : 'warning' /// résultat : jaune
 
-![ButtonColor_Primary](https://user-images.githubusercontent.com/93406912/199367497-4743c224-5778-4030-bfb1-45e8b0aa8c72.PNG) ![ButtonColor_Success](https://user-images.githubusercontent.com/93406912/199367516-2ac3aa65-324c-4f67-8014-3616a56bd418.PNG) ![ButtonColor_warning](https://user-images.githubusercontent.com/93406912/199367528-b3a711af-b7ba-4a52-a388-50f4dc0fefdf.PNG)
+![final_ButtonColor](https://user-images.githubusercontent.com/93406912/199370958-07201b77-4010-440d-afbc-3800d6d107f3.jpg)
 
 --------------------------------
 
@@ -94,6 +94,8 @@ SmallButton.args = {
 - size : 'md' /// résultat : medium
 - size : 'lg' /// résultat : large
 
+![final_ButtonSize](https://user-images.githubusercontent.com/93406912/199370981-b1527776-e635-4063-9fdc-14091adedaa8.jpg)
+
 --------------------------------
 
 ### ButtonType
@@ -117,6 +119,8 @@ ResetButton.args = {
 - type & value : 'button' /// résultat : default button (style de bouton par défaut)
 - type & value : 'submit' /// résultat : submit button (style de bouton d'envoi)
 - type & value : 'reset' /// résultat : reset button (style de bouton de remise à zéro)
+
+![final_ButtonType](https://user-images.githubusercontent.com/93406912/199371027-84e1e6e4-fc0e-407e-b987-b9cd4bce3375.jpg)
 
 --------------------------------
 
@@ -146,6 +150,9 @@ SmallSize.args = {
 - size : 'small' /// résultat : la taille de la carte sera petite
 - size : '' /// résultat : la taille de la carte sera par défaut
 - title & extra : '' /// résultat : La carte n'aura pas de header
+
+![final_AntDCard](https://user-images.githubusercontent.com/93406912/199371043-ec70a1b8-8a43-42d5-a53b-39b07f5d50bb.jpg)
+
 --------------------------------
 
 ### DisplayFlex
@@ -175,6 +182,8 @@ Medium.args = {
 - height : 200 /// résultat : hauteur des images de 300 pixels
 - size : 'md' /// résultat : largeur du cadre de 1rem
 
+![final_displayFlex](https://user-images.githubusercontent.com/93406912/199371059-da30d798-cd71-4c1a-abe7-dc995d83f09a.jpg)
+
 --------------------------------
 
 ### DropDownMenu
@@ -201,6 +210,8 @@ LinksEnabled.args = {
 - linkDisabled : false /// résultat : les liens seront fonctionnels
 - dangerEnable : false /// résultat : le menu et ses liens seront à la couleur par défaut
 
+![final_DropDownMenu](https://user-images.githubusercontent.com/93406912/199371075-6f24a856-563d-4de3-9b43-296cdbfcebb4.jpg)
+
 --------------------------------
 
 ### Height
@@ -225,6 +236,8 @@ MediumH.args = {
 - height : 300 /// résultat : hauteur de 300 pixels
 - height : 450 /// résultat : hauteur de 450 pixels
 
+![final_imageH](https://user-images.githubusercontent.com/93406912/199371087-db13c85d-7475-471b-ad41-414e27d9f2a3.jpg)
+
 --------------------------------
 
 ### Rating
@@ -247,6 +260,8 @@ Small.args = {
 **Résultats :**
 - name : "small" /// résultat : le nom du rating est *small*
 - size : "small" /// résultat : la taille du rating sera petite
+
+![final_ratingSizes](https://user-images.githubusercontent.com/93406912/199371100-94b47612-1cc0-4c8a-bb6a-c1846b888732.jpg)
 
 --------------------------------
 
@@ -277,6 +292,8 @@ Error.args = {
 - text : "Error" /// résultat : le texte dessous le champ est *Error*
 - label : "Age" /// résultat : le label au dessus du champ sera *Age*
 
+![final_select](https://user-images.githubusercontent.com/93406912/199371123-80f68fa8-41e9-454f-8f4b-2b57d1a79ed0.jpg)
+
 --------------------------------
 
 ### Width
@@ -300,5 +317,7 @@ LargeW.args = {
 - width : 150 /// résultat : largeur de 150 pixels
 - width : 300 /// résultat : largeur de 300 pixels
 - width : 450 /// résultat : largeur de 450 pixels
+
+![final_imageW](https://user-images.githubusercontent.com/93406912/199371138-94cd0d86-2088-488e-b699-f699c9120b3a.jpg)
 
 --------------------------------
