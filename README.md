@@ -67,6 +67,8 @@ PrimaryButton.args = {
 - variant : 'success' /// résultat : vert
 - variant : 'warning' /// résultat : jaune
 
+![ButtonColor_Primary](https://user-images.githubusercontent.com/93406912/199367497-4743c224-5778-4030-bfb1-45e8b0aa8c72.PNG) ![ButtonColor_Success](https://user-images.githubusercontent.com/93406912/199367516-2ac3aa65-324c-4f67-8014-3616a56bd418.PNG) ![ButtonColor_warning](https://user-images.githubusercontent.com/93406912/199367528-b3a711af-b7ba-4a52-a388-50f4dc0fefdf.PNG)
+
 --------------------------------
 
 ### ButtonSize
