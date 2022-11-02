@@ -40,12 +40,6 @@ Vous pouvez installer le package via npm :
 npm i fxgcomponents_mafre005
 ```
 
-Entrez la commande suivante dans le terminal afin d'installer les packages npm nécessaires :
-
-```
-npm install
-```
-
 --------------------------------
 
 ## Composantes
