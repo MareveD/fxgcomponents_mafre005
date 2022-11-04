@@ -2,9 +2,12 @@
   "name": "fxgcomponents_mafre005",
   "version": "1.0.8",
   "description": "Bibliothèque de components React",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -22,5 +25,40 @@
   "bugs": {
     "url": "https://github.com/MareveD/fxgcomponents_mafre005/issues"
   },
-  "homepage": "https://github.com/MareveD/fxgcomponents_mafre005#readme"
+  "homepage": "https://github.com/MareveD/fxgcomponents_mafre005#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-react": "^7.16.7",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@storybook/addon-actions": "^6.4.9",
+    "@storybook/addon-essentials": "^6.4.9",
+    "@storybook/addon-links": "^6.4.9",
+    "@storybook/react": "^6.4.9",
+    "babel-loader": "^8.2.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.63.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.9",
+    "@storybook/addon-docs": "^6.4.10",
+    "antd": "^4.18.2",
+    "bootstrap": "^5.2.2",
+    "php": "^1.0.2",
+    "react-bootstrap": "^2.5.0",
+    "yarn": "^1.22.19"
+  }
 }
