@@ -37,7 +37,7 @@ jobs:
       - name: 🚚 Get latest code
         uses: actions/checkout@v2
       - name: Build Project
-        run: npm ci
+        run: npm install
       - run: npm run build-storybook
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.2.0
@@ -45,7 +45,7 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: .storybook/
+          local-dir: ./storybook-static/
           server-dir: public_html/storybook_react/
           protocol: ftps
           port: 21
