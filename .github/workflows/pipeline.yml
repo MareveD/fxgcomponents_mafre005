@@ -37,7 +37,7 @@ jobs:
       - name: 🚚 Get latest code
         uses: actions/checkout@v2
       - name: Build Project
-      - run: npm ci
+        run: npm ci
       - run: npm run build-storybook
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.2.0
