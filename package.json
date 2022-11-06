@@ -1,6 +1,6 @@
 {
   "name": "fxgcomponents_mafre005",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Bibliothèque de components React",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
