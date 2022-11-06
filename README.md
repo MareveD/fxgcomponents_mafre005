@@ -18,12 +18,6 @@ Bibliothèque de 10 composantes React réutilisables basées sur Bootstrap, Ant 
 
 --------------------------------
 
-## Version courante :
-
-- Version 1.0.8 : Ajustements finaux au readme.md.
-
---------------------------------
-
 ## Installation
 
 Vous pouvez installer le package via npm :
