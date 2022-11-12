@@ -30,3 +30,9 @@ LargeButton.args = {
   variantType: "primary",
   sizeType: "lg"
 }
+
+export const Patate = Template.bind({})
+Patate.args = {
+  variantType: "primary",
+  sizeType: "lg"
+}
